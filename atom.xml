@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MPS blog</title>
+  
+  <subtitle>仰望星空，脚-踏-实-地！</subtitle>
+  <link href="https://physics-m.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://physics-m.github.io/"/>
+  <updated>2020-09-12T17:50:23.798Z</updated>
+  <id>https://physics-m.github.io/</id>
+  
+  <author>
+    <name>Mr.M</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>起点</title>
+    <link href="https://physics-m.github.io/2020/09/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://physics-m.github.io/2020/09/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-09-12T12:06:36.000Z</published>
+    <updated>2020-09-12T17:50:23.798Z</updated>
+    
+    <content type="html"><![CDATA[<p>–<br>  跟关于内容差不多</p><a id="more"></a>  <h1 id="我的博客大概分为几个方面，以及对内容的预想"><a href="#我的博客大概分为几个方面，以及对内容的预想" class="headerlink" title="我的博客大概分为几个方面，以及对内容的预想"></a>我的博客大概分为几个方面，以及对内容的预想</h1><h3 id="1-瞎折腾"><a href="#1-瞎折腾" class="headerlink" title="1. 瞎折腾"></a>1. 瞎折腾</h3><p>   / 1.树莓派 2.捡垃圾 3.以及一些化学实验 4.以及博客建立的坑 /</p><h3 id="2-学习"><a href="#2-学习" class="headerlink" title="2. 学习"></a>2. 学习</h3><p>   / 1.有趣的数学问题 2.秃头的物理题 3.计算机语言的学习/</p><h3 id="3-个人瞎想"><a href="#3-个人瞎想" class="headerlink" title="3. 个人瞎想"></a>3. 个人瞎想</h3><p>   / 1.时政性的思考 2.对某些热点问题的反思与看法  /</p><h3 id="4-无聊发骚"><a href="#4-无聊发骚" class="headerlink" title="4. 无聊发骚"></a>4. 无聊发骚</h3><p>   /十有八九因为妹子（逃~）/</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;–&lt;br&gt;  跟关于内容差不多&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="blog" scheme="https://physics-m.github.io/tags/blog/"/>
+    
+    <category term="折腾" scheme="https://physics-m.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+</feed>
