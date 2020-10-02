@@ -6,7 +6,7 @@
   <link href="https://physics-m.github.io/atom.xml" rel="self"/>
   
   <link href="https://physics-m.github.io/"/>
-  <updated>2020-09-12T17:50:23.798Z</updated>
+  <updated>2020-10-02T02:14:00.019Z</updated>
   <id>https://physics-m.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何通过hexo建立一个属于自己的个人博客（静态网站）</title>
+    <link href="https://physics-m.github.io/2020/10/01/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%EF%BC%89/"/>
+    <id>https://physics-m.github.io/2020/10/01/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%EF%BC%89/</id>
+    <published>2020-10-01T12:49:50.000Z</published>
+    <updated>2020-10-02T02:14:00.019Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28625025&auto=0&height=66"></iframe>首先简单谈谈我为什么创建个人博客，我是因为逛信息竞赛的论坛的水贴中看到Noip巨佬Menci's Blog的博客（https://oi.men.ci/） 而惊艳到，而也想拥有一个同样的个人博客，于是就做了一个神似的个人博客。我也用了同样的hexo上的Next主题，本次教程会使用Fluid主题。<a id="more"></a> <h1 id="概括"><a href="#概括" class="headerlink" title="概括"></a>概括</h1><p>简单介绍一下要使用的博客框架 hexo<br>官网（<a href="https://hexo.io/">https://hexo.io</a> )<br>一个快速、简洁且高效的博客框架，上面的主题有300多个大多都非常漂亮</p><p>另hexo官网文档也有详细教程，有一定基础者可以直接看(<a href="https://hexo.io/zh-cn/docs">https://hexo.io/zh-cn/docs</a> ）那个是直接推送到GitHub上，我这个还会再讲如何推送到码云上。</p><h1 id="提前需要准备什么-？"><a href="#提前需要准备什么-？" class="headerlink" title="提前需要准备什么 ？"></a>提前需要准备什么 ？</h1><p>1.一台电脑。。。。要联网。。。（废话）<br>2.一个文本编译器，什么编译器都行，个人推荐sublimetext（<a href="http://www.sublimetext.com/3">http://www.sublimetext.com/3</a> ）（ps：这玩意有办法变成中文，可以自行百度或者QQ问我）<br>3.nodejs.org(<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a> )(必要)<br>4.Git （<a href="https://git-scm.com/">https://git-scm.com/</a> ）（必要）</p><h1 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h1>]]></content>
+    
+    
+    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=28625025&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
+首先简单谈谈我为什么创建个人博客，我是因为逛信息竞赛的论坛的水贴中看到Noip巨佬Menci&#39;s Blog的博客（https://oi.men.ci/） 而惊艳到，而也想拥有一个同样的个人博客，于是就做了一个神似的个人博客。我也用了同样的hexo上的Next主题，本次教程会使用Fluid主题。</summary>
+    
+    
+    
+    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+    <category term="hexo建站" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/hexo%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="blog" scheme="https://physics-m.github.io/tags/blog/"/>
+    
+    <category term="教程" scheme="https://physics-m.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="hexo" scheme="https://physics-m.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>起点</title>
