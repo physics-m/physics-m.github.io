@@ -6,7 +6,7 @@
   <link href="https://physics-m.github.io/atom.xml" rel="self"/>
   
   <link href="https://physics-m.github.io/"/>
-  <updated>2020-10-31T04:02:04.587Z</updated>
+  <updated>2021-01-01T18:49:13.696Z</updated>
   <id>https://physics-m.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>坑日志</title>
+    <link href="https://physics-m.github.io/2021/01/02/%E5%9D%91%E6%97%A5%E5%BF%97/"/>
+    <id>https://physics-m.github.io/2021/01/02/%E5%9D%91%E6%97%A5%E5%BF%97/</id>
+    <published>2021-01-01T18:43:57.000Z</published>
+    <updated>2021-01-01T18:49:13.696Z</updated>
+    
+    <content type="html"><![CDATA[<p>头发愤怒聚集地。。。。。<br><strong>主要是关于我的博客<a href="http://physics-m.github.io/">MPS Blog</a>和数学的一个网站<a href="http://math-m.gitee.io/">数学阁</a> 的维护日志</strong></p><a id="more"></a> <hr><h1 id="1-公式插件（MathJax）"><a href="#1-公式插件（MathJax）" class="headerlink" title="1.公式插件（MathJax）"></a>1.公式插件（MathJax）</h1><p>2020年11月29日 对象physics-m math-m<br>让Hexo支持MathJax渲染公式<br>毕竟hexo的markdown自带的公式渲染太拉跨了。。。。。。</p><p>示例<br>$$J(\theta_0,\theta_1)=\frac{1}{2m} \sum_{i=1}^{m} ( h_{\theta}(x^{(i)})-y^{(i)} )^2 \quad (for , j=0 ; and ; j=1)$$</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm uninstall hexo-renderer-marked --save</span><br><span class="line">$ npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><p>第一条命令用于卸载 hexo-renderer-marked（注意，如果你使用了其他的渲染插件，请卸载对应的插件），它是hexo自带的Markdown渲染引擎。<br>The first command uninstall Hexo’s default Markdown renderer.</p><p>第二条命令用于安装 hexo-renderer-kramed 插件，这个渲染插件针对MathJax支持进行了改进。安装完成后，重新生成博客就会惊喜地发现你的公式已经能够正常显示了。<br>The second command install new Markdown renderer which can support MathJax fully. After installation, you should regenerate your blog to see the changes.</p><p>另外，要确保主题配置文件博客根目录<code>主题/_config.yml </code>开启了 MathJax </p><p><a href="http://seyvoue.com/manual/8d6d20a0.html">参考来源 作者：seyvoue</a></p><h1 id="2-更改网页底部（2021年1月1日）"><a href="#2-更改网页底部（2021年1月1日）" class="headerlink" title="2.更改网页底部（2021年1月1日）"></a>2.更改网页底部（2021年1月1日）</h1><p>因为想白嫖 <strong>又拍云</strong> 的 <strong>CDN</strong></p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210101141922.png"></p><h3 id="所以我需要改一下网页底部"><a href="#所以我需要改一下网页底部" class="headerlink" title="所以我需要改一下网页底部"></a>所以我需要改一下网页底部</h3><p>首先我们要在你的主题所在的的文件夹中，进入<code>layout</code>–&gt;<code> _partial</code> –&gt; <code>footer.swig </code></p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210101141300.png">]</p><p>PS：**.wsig<strong>这个</strong>后缀名**并不一定，但名称应该都是这个<code>footer</code></p><p>如果你是第一次打开类似文件，打开时windows会提示没有用来打开该文件的软件</p><p>可以选择如 <em>Sublime Text 3</em> 类的文本编辑器可以,打开后</p><p>然后就可以根据不同主题格式写自己想要的文本和跳转的链接</p><h1 id="使用-Git-进行源文件备份，推到GitHub上-2021年1月2日"><a href="#使用-Git-进行源文件备份，推到GitHub上-2021年1月2日" class="headerlink" title="使用 Git 进行源文件备份，推到GitHub上 (2021年1月2日)"></a>使用 <strong>Git</strong> 进行源文件备份，推到GitHub上 (2021年1月2日)</h1><h3 id="第一次操作"><a href="#第一次操作" class="headerlink" title="第一次操作"></a>第一次操作</h3><ol><li><p>在GitHub创建一个备份的仓库</p><p>过程 略</p></li><li><p>打开该仓库，并在本地<strong>git clone</strong> 该仓库</p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210102003540.png"></p><p>在你本地新任意一个新的文件夹里 <strong>git clone</strong> 该仓库</p><p>及在此文件夹 <strong>git bash</strong> 输入<code>git clone git@github.com:physics-m/hexo.git </code> </p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210102004931.png"></p></li><li><p>将需要文件转移至克隆下来的文件夹内</p></li></ol><p>过程略</p><ol start="4"><li><p><strong>重点来了</strong>（这也是以后的操作）</p><p><strong>git</strong> 进入入该克隆的文件夹内</p><p>以此如下操作（时间会有点久）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;1&quot; （注：“1”里面换成你需要,这是你这次改变的注释） </span><br><span class="line">git push -u origin master （注：此操作目的是把本地仓库push到github上面，如果没有使用密钥此步骤需要你输入帐号和密码）</span><br></pre></td></tr></table></figure><p>注意 <code>git add .</code> 的 <strong>.</strong> 这是不能忽略的</p></li></ol><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li>来源: Shawlon`s Blog<br>作者: Tyzhao<br>链接: <a href="https://www.yshawlon.cn/2020/04/07/shi-yong-github-bei-fen-hexo-bo-ke-yuan-wen-jian/">https://www.yshawlon.cn/2020/04/07/shi-yong-github-bei-fen-hexo-bo-ke-yuan-wen-jian/</a></li><li><a href="https://www.bootcss.com/p/git-guide/">git - 简易指南</a></li><li><a href="https://git.oschina.net/progit/">gitee的Git文档</a></li></ul><h1 id="Markdown在hexo中特殊的语法（2021年1月2日01点10分）"><a href="#Markdown在hexo中特殊的语法（2021年1月2日01点10分）" class="headerlink" title="Markdown在hexo中特殊的语法（2021年1月2日01点10分）"></a>Markdown在hexo中特殊的语法（2021年1月2日01点10分）</h1><ul><li>title   【必需】文章标题</li><li>date    【必需】文章创建日期</li><li>updated 【可选】文章更新日期</li><li>tags    【可选】文章标籤</li><li>categories  【可选】文章分类</li><li>keywords    【可选】文章关键字</li><li>description 【可选】文章描述</li><li>top_img 【可选】文章顶部图片</li><li>cover   【可选】文章缩略图 (如果没有设置 top_img, 文章页顶部将显示缩略图，可设为 false /图片地址 / 留空)</li><li>comments    【可选】显示文章评论模块 (默认 true)</li><li>toc 【可选】显示文章 TOC (默认为设置中 toc 的 enable 配置)</li><li>toc_number  【可选】显示 toc_number (默认为设置中 toc 的 number 配置)</li><li>auto_open   【可选】是否自动打开 TOC (默认为设置中 toc 的 auto_open 配置)</li><li>copyright   【可选】显示文章版权模块 (默认为设置中 post_copyright 的 enable 配置)</li><li>copyright_author    【可选】文章版权模块的文章作者</li><li>copyright_author_href   【可选】文章版权模块的文章作者链接</li><li>copyright_url   【可选】文章版权模块的文章连结链接</li><li>copyright_info  【可选】文章版权模块的版权声明文字</li><li>mathjax 【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)</li><li>katex   【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)</li><li>aplayer 【可选】在需要的页面加载 aplayer 的 js 和 css, 请参考文章下面的音乐 配置</li><li>highlight_shrink    【可选】配置代码框是否展开 (true/false)(默认为设置中 highlight_shrink 的配置)</li></ul><p>  作者：Confucianmen大宇<br>  链接：<a href="https://www.jianshu.com/p/f7f34c659149">https://www.jianshu.com/p/f7f34c659149</a><br>  来源：简书</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;头发愤怒聚集地。。。。。&lt;br&gt;&lt;strong&gt;主要是关于我的博客&lt;a href=&quot;http://physics-m.github.io/&quot;&gt;MPS Blog&lt;/a&gt;和数学的一个网站&lt;a href=&quot;http://math-m.gitee.io/&quot;&gt;数学阁&lt;/a&gt; 的维护日志&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="blog" scheme="https://physics-m.github.io/tags/blog/"/>
+    
+    <category term="折腾" scheme="https://physics-m.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>如何通过hexo建立一个属于自己的个人博客（静态网站）</title>
