@@ -6,7 +6,7 @@
   <link href="https://physics-m.github.io/atom.xml" rel="self"/>
   
   <link href="https://physics-m.github.io/"/>
-  <updated>2021-01-01T06:44:32.273Z</updated>
+  <updated>2020-10-31T04:02:04.587Z</updated>
   <id>https://physics-m.github.io/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>坑日志</title>
-    <link href="https://physics-m.github.io/2020/11/29/%E5%9D%91%E6%97%A5%E5%BF%97/"/>
-    <id>https://physics-m.github.io/2020/11/29/%E5%9D%91%E6%97%A5%E5%BF%97/</id>
-    <published>2020-11-29T02:33:29.000Z</published>
-    <updated>2021-01-01T06:44:32.273Z</updated>
-    
-    <content type="html"><![CDATA[<p>-<br>头发愤怒聚集地。。。。。<br><strong>主要是关于我的博客<a href="http://physics-m.gitee.io/">MPS Blog</a>和数学的一个网站<a href="http://math-m.gitee.io/">数学阁</a> 的维护日志</strong></p><a id="more"></a>  <hr><h1 id="1-公式插件（MathJax）"><a href="#1-公式插件（MathJax）" class="headerlink" title="1.公式插件（MathJax）"></a>1.公式插件（MathJax）</h1><p>2020年11月29日 对象physics-m math-m<br>让Hexo支持MathJax渲染公式<br>毕竟hexo的markdown自带的公式渲染太拉跨了。。。。。。</p><p>示例<br>$$J(\theta_0,\theta_1)=\frac{1}{2m} \sum_{i=1}^{m} ( h_{\theta}(x^{(i)})-y^{(i)} )^2 \quad (for , j=0 ; and ; j=1)$$</p><p>公式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm uninstall hexo-renderer-marked --save</span><br><span class="line">$ npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><p>第一条命令用于卸载 hexo-renderer-marked（注意，如果你使用了其他的渲染插件，请卸载对应的插件），它是hexo自带的Markdown渲染引擎。<br>The first command uninstall Hexo’s default Markdown renderer.</p><p>第二条命令用于安装 hexo-renderer-kramed 插件，这个渲染插件针对MathJax支持进行了改进。安装完成后，重新生成博客就会惊喜地发现你的公式已经能够正常显示了。<br>The second command install new Markdown renderer which can support MathJax fully. After installation, you should regenerate your blog to see the changes.</p><p>另外，要确保主题配置文件博客根目录<code>主题/_config.yml </code>开启了 MathJax </p><p><a href="http://seyvoue.com/manual/8d6d20a0.html">参考来源 作者：seyvoue</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;-&lt;br&gt;头发愤怒聚集地。。。。。&lt;br&gt;&lt;strong&gt;主要是关于我的博客&lt;a href=&quot;http://physics-m.gitee.io/&quot;&gt;MPS Blog&lt;/a&gt;和数学的一个网站&lt;a href=&quot;http://math-m.gitee.io/&quot;&gt;数学阁&lt;/a&gt; 的维护日志&lt;/strong&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
-    
-    
-    <category term="blog" scheme="https://physics-m.github.io/tags/blog/"/>
-    
-    <category term="折腾" scheme="https://physics-m.github.io/tags/%E6%8A%98%E8%85%BE/"/>
-    
-  </entry>
   
   <entry>
     <title>如何通过hexo建立一个属于自己的个人博客（静态网站）</title>
