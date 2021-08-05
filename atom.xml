@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MPS blog</title>
+  
+  <subtitle>仰望星空，脚-踏-实-地！</subtitle>
+  <link href="https://physics-m.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://physics-m.github.io/"/>
+  <updated>2021-08-05T12:52:22.301Z</updated>
+  <id>https://physics-m.github.io/</id>
+  
+  <author>
+    <name>Mr.M</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>暑假假期计划 2021年8月5日</title>
+    <link href="https://physics-m.github.io/2021/08/05/%E6%9A%91%E5%81%87%E5%81%87%E6%9C%9F%E8%AE%A1%E5%88%922021%E5%B9%B48%E6%9C%885%E6%97%A5/"/>
+    <id>https://physics-m.github.io/2021/08/05/%E6%9A%91%E5%81%87%E5%81%87%E6%9C%9F%E8%AE%A1%E5%88%922021%E5%B9%B48%E6%9C%885%E6%97%A5/</id>
+    <published>2021-08-05T11:25:04.000Z</published>
+    <updated>2021-08-05T12:52:22.301Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于从这几天开始全日工结束，虽然还是会打半日工，自己的假期计划要正式开始。<br><del>化身卷王</del>（雾）</p><a id="more"></a>  <h2 id="网站方面"><a href="#网站方面" class="headerlink" title="网站方面"></a>网站方面</h2><ul><li>整理一下我在高中照的照片，做一个网上的<strong>同学录</strong>（重点！！）</li><li>维护一下我的数学阁</li><li>尽量一周一更（咕咕咕？）<h2 id="学习方面"><a href="#学习方面" class="headerlink" title="学习方面"></a>学习方面</h2></li><li>背单词，单日40 /本人高考英语66 （平生最高。。。）</li><li>再把高数系统的学习一遍</li><li>入门C语言（尽量在跟python）</li><li>搞搞单片机？<h2 id="锻炼"><a href="#锻炼" class="headerlink" title="锻炼"></a>锻炼</h2>由于高考完后的打工，自己也懒得锻炼，体重从高考前的80kg到现在76kg，体积却变大了 ？？？</li><li>晨跑</li><li>晚练（俯卧撑仰卧起坐）</li><li><del>羽毛球</del>（疫情原因）<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2></li><li><del>练车</del>（疫情）</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;由于从这几天开始全日工结束，虽然还是会打半日工，自己的假期计划要正式开始。&lt;br&gt;&lt;del&gt;化身卷王&lt;/del&gt;（雾）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://physics-m.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="计划" scheme="https://physics-m.github.io/tags/%E8%AE%A1%E5%88%92/"/>
+    
+    <category term="暑假" scheme="https://physics-m.github.io/tags/%E6%9A%91%E5%81%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无法正常使用GitHub的解决方法</title>
+    <link href="https://physics-m.github.io/2021/02/05/%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8GitHub%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://physics-m.github.io/2021/02/05/%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8GitHub%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2021-02-05T12:55:01.000Z</published>
+    <updated>2021-08-05T13:05:56.882Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于<strong>众所周知</strong>的某些原因，GitHub（同性恋交友击剑网站）总是玄学的被墙，尤其是图片，很多时候我连自己的头像都看不到。<br>本片内容讲一讲如何在不使用魔法的情况下自由的击剑（雾）</p><a id="more"></a>  <p>这个问题的原因是GitHub域名被污染所以，我们可以更改本机hosts文件进行自解析来防止这些问题（但并不能解决下载速度慢这个问题，毕竟水管细，如果想快可以是用国内gitee做中转，或者使用魔法）</p><p><strong>注意：</strong>该解析是在2月10日更新的，不过GitHub更换ip的频率很低，如果不行可以评论我会再次更新，也可以通过<a href="https://github.com/ButterAndButterfly/GithubHost">github社区的这个项目</a>直接获得</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"># GitHub Start </span><br><span class="line"># Last update at 2021-05-01 15:14:03 (Beijing Time)</span><br><span class="line">140.82.114.6 api.github.com</span><br><span class="line">185.199.111.153 assets-cdn.github.com</span><br><span class="line">185.199.110.133 avatars.githubusercontent.com</span><br><span class="line">185.199.110.133 avatars0.githubusercontent.com</span><br><span class="line">185.199.108.133 camo.githubusercontent.com</span><br><span class="line">185.199.108.133 cloud.githubusercontent.com</span><br><span class="line">140.82.112.9 codeload.github.com</span><br><span class="line">185.199.108.133 favicons.githubusercontent.com</span><br><span class="line">140.82.113.3 gist.github.com</span><br><span class="line">185.199.108.133 gist.githubusercontent.com</span><br><span class="line">140.82.113.3 github.com</span><br><span class="line">185.199.108.154 github.githubassets.com</span><br><span class="line">185.199.108.133 marketplace-screenshots.githubusercontent.com</span><br><span class="line">140.82.112.4 octocaptcha.com</span><br><span class="line">185.199.109.133 raw.githubusercontent.com</span><br><span class="line">185.199.108.133 repository-images.githubusercontent.com</span><br><span class="line">140.82.112.13 uploads.github.com</span><br><span class="line">185.199.108.133 user-images.githubusercontent.com</span><br><span class="line"># GitHub End </span><br></pre></td></tr></table></figure><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><h4 id="将上述代码框内的这些东西复制添加到你hosts文件后"><a href="#将上述代码框内的这些东西复制添加到你hosts文件后" class="headerlink" title="将上述代码框内的这些东西复制添加到你hosts文件后"></a>将上述代码框内的这些东西复制添加到你hosts文件后</h4><p>*<em>打开</em>hosts文件** hosts文件路径<code>C:\Windows\System32\drivers\etc </code></p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210212193720.png"></p><p>可以通过任意一款文本编辑器打开进行修改，我这里使用的是Sublime Text 3打开，也可以使用windows自带的记事本打开。让后复制我代码框中的东西，粘贴在所有文本下面</p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210212203542.png"></p><h4 id="更改hosts后，注意在cmd中使用ipconfig-flushdns刷新DNS缓存"><a href="#更改hosts后，注意在cmd中使用ipconfig-flushdns刷新DNS缓存" class="headerlink" title="更改hosts后，注意在cmd中使用ipconfig /flushdns刷新DNS缓存"></a>更改hosts后，注意在cmd中使用<code>ipconfig /flushdns</code>刷新DNS缓存</h4><p><strong>1.点击<code>win</code>键＋<code>R</code>键打开运行   2.输入cmd回车打开CMD</strong></p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210212204046.png"></p><p>**在cmd的界面里输入<code>ipconfig /flushdns</code> 后回车  ** 来清除缓存</p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210212204616.png"></p><p>让后我们就可以快乐的浏览世界上最大的同性恋交友网站Github了！</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;由于&lt;strong&gt;众所周知&lt;/strong&gt;的某些原因，GitHub（同性恋交友击剑网站）总是玄学的被墙，尤其是图片，很多时候我连自己的头像都看不到。&lt;br&gt;本片内容讲一讲如何在不使用魔法的情况下自由的击剑（雾）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="魔法" scheme="https://physics-m.github.io/tags/%E9%AD%94%E6%B3%95/"/>
+    
+    <category term="GitHub" scheme="https://physics-m.github.io/tags/GitHub/"/>
+    
+    <category term="墙" scheme="https://physics-m.github.io/tags/%E5%A2%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git的配置(持续托更中)</title>
+    <link href="https://physics-m.github.io/2021/01/15/git%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+    <id>https://physics-m.github.io/2021/01/15/git%E7%9A%84%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-01-15T12:53:47.000Z</published>
+    <updated>2021-08-05T13:01:22.935Z</updated>
+    
+    <content type="html"><![CDATA[<p>还在持续拖更当中ing~</p><a id="more"></a>  <h1 id="Git初涉"><a href="#Git初涉" class="headerlink" title="Git初涉"></a>Git初涉</h1><h3 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1.安装Git"></a>1.安装Git</h3><h3 id="2-配置git"><a href="#2-配置git" class="headerlink" title="2.配置git"></a>2.配置git</h3><p>安装完成后，离正式还需要最后一步设置，即对<strong>git</strong>进行初始配置（关于你本机的名字和邮件），使你方便在github上管理。</p><p>在命令行输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;Your Name&quot;</span><br><span class="line">$ git config --global user.email &quot;email@example.com&quot;</span><br></pre></td></tr></table></figure><p><strong>PS</strong>：因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。</p><p>（<strong>注意：</strong> <code>git config</code>命令的<code>--global</code>参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。）</p><blockquote><ul><li>另外如果第一次配置信息错误或需要更改名字和Emil可以用如下代码</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$  git config --global --replace-all user.email &quot;输入你的邮箱&quot; </span><br><span class="line">$  git config --global --replace-all user.name &quot;输入你的用户名&quot;</span><br></pre></td></tr></table></figure><ul><li><p>查看你对git配置</p><p><code>$ git config --list</code> </p></li></ul><p>可以查看你对git软件的配置</p></blockquote><p>3.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;还在持续拖更当中ing~&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="git" scheme="https://physics-m.github.io/tags/git/"/>
+    
+    <category term="blog入门" scheme="https://physics-m.github.io/tags/blog%E5%85%A5%E9%97%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>坑日志</title>
+    <link href="https://physics-m.github.io/2021/01/02/%E5%9D%91%E6%97%A5%E5%BF%97/"/>
+    <id>https://physics-m.github.io/2021/01/02/%E5%9D%91%E6%97%A5%E5%BF%97/</id>
+    <published>2021-01-01T18:43:57.000Z</published>
+    <updated>2021-01-01T18:49:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>头发愤怒聚集地。。。。。<br><strong>主要是关于我的博客<a href="http://physics-m.github.io/">MPS Blog</a>和数学的一个网站<a href="http://math-m.gitee.io/">数学阁</a> 的维护日志</strong></p><a id="more"></a> <hr><h1 id="1-公式插件（MathJax）"><a href="#1-公式插件（MathJax）" class="headerlink" title="1.公式插件（MathJax）"></a>1.公式插件（MathJax）</h1><p>2020年11月29日 对象physics-m math-m<br>让Hexo支持MathJax渲染公式<br>毕竟hexo的markdown自带的公式渲染太拉跨了。。。。。。</p><p>示例<br>$$J(\theta_0,\theta_1)=\frac{1}{2m} \sum_{i=1}^{m} ( h_{\theta}(x^{(i)})-y^{(i)} )^2 \quad (for , j=0 ; and ; j=1)$$</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm uninstall hexo-renderer-marked --save</span><br><span class="line">$ npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><p>第一条命令用于卸载 hexo-renderer-marked（注意，如果你使用了其他的渲染插件，请卸载对应的插件），它是hexo自带的Markdown渲染引擎。<br>The first command uninstall Hexo’s default Markdown renderer.</p><p>第二条命令用于安装 hexo-renderer-kramed 插件，这个渲染插件针对MathJax支持进行了改进。安装完成后，重新生成博客就会惊喜地发现你的公式已经能够正常显示了。<br>The second command install new Markdown renderer which can support MathJax fully. After installation, you should regenerate your blog to see the changes.</p><p>另外，要确保主题配置文件博客根目录<code>主题/_config.yml </code>开启了 MathJax </p><p><a href="http://seyvoue.com/manual/8d6d20a0.html">参考来源 作者：seyvoue</a></p><h1 id="2-更改网页底部（2021年1月1日）"><a href="#2-更改网页底部（2021年1月1日）" class="headerlink" title="2.更改网页底部（2021年1月1日）"></a>2.更改网页底部（2021年1月1日）</h1><p>因为想白嫖 <strong>又拍云</strong> 的 <strong>CDN</strong></p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210101141922.png"></p><h3 id="所以我需要改一下网页底部"><a href="#所以我需要改一下网页底部" class="headerlink" title="所以我需要改一下网页底部"></a>所以我需要改一下网页底部</h3><p>首先我们要在你的主题所在的的文件夹中，进入<code>layout</code>–&gt;<code> _partial</code> –&gt; <code>footer.swig </code></p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210101141300.png">]</p><p>PS：**.wsig<strong>这个</strong>后缀名**并不一定，但名称应该都是这个<code>footer</code></p><p>如果你是第一次打开类似文件，打开时windows会提示没有用来打开该文件的软件</p><p>可以选择如 <em>Sublime Text 3</em> 类的文本编辑器可以,打开后</p><p>然后就可以根据不同主题格式写自己想要的文本和跳转的链接</p><h1 id="使用-Git-进行源文件备份，推到GitHub上-2021年1月2日"><a href="#使用-Git-进行源文件备份，推到GitHub上-2021年1月2日" class="headerlink" title="使用 Git 进行源文件备份，推到GitHub上 (2021年1月2日)"></a>使用 <strong>Git</strong> 进行源文件备份，推到GitHub上 (2021年1月2日)</h1><h3 id="第一次操作"><a href="#第一次操作" class="headerlink" title="第一次操作"></a>第一次操作</h3><ol><li><p>在GitHub创建一个备份的仓库</p><p>过程 略</p></li><li><p>打开该仓库，并在本地<strong>git clone</strong> 该仓库</p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210102003540.png"></p><p>在你本地新任意一个新的文件夹里 <strong>git clone</strong> 该仓库</p><p>及在此文件夹 <strong>git bash</strong> 输入<code>git clone git@github.com:physics-m/hexo.git </code> </p><p><img src="https://gitee.com/physics-m/tubian/raw/master/20210102004931.png"></p></li><li><p>将需要文件转移至克隆下来的文件夹内</p></li></ol><p>过程略</p><ol start="4"><li><p><strong>重点来了</strong>（这也是以后的操作）</p><p><strong>git</strong> 进入入该克隆的文件夹内</p><p>以此如下操作（时间会有点久）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;1&quot; （注：“1”里面换成你需要,这是你这次改变的注释） </span><br><span class="line">git push -u origin master （注：此操作目的是把本地仓库push到github上面，如果没有使用密钥此步骤需要你输入帐号和密码）</span><br></pre></td></tr></table></figure><p>注意 <code>git add .</code> 的 <strong>.</strong> 这是不能忽略的</p></li></ol><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li>来源: Shawlon`s Blog<br>作者: Tyzhao<br>链接: <a href="https://www.yshawlon.cn/2020/04/07/shi-yong-github-bei-fen-hexo-bo-ke-yuan-wen-jian/">https://www.yshawlon.cn/2020/04/07/shi-yong-github-bei-fen-hexo-bo-ke-yuan-wen-jian/</a></li><li><a href="https://www.bootcss.com/p/git-guide/">git - 简易指南</a></li><li><a href="https://git.oschina.net/progit/">gitee的Git文档</a></li></ul><h1 id="Markdown在hexo中特殊的语法（2021年1月2日01点10分）"><a href="#Markdown在hexo中特殊的语法（2021年1月2日01点10分）" class="headerlink" title="Markdown在hexo中特殊的语法（2021年1月2日01点10分）"></a>Markdown在hexo中特殊的语法（2021年1月2日01点10分）</h1><ul><li>title   【必需】文章标题</li><li>date    【必需】文章创建日期</li><li>updated 【可选】文章更新日期</li><li>tags    【可选】文章标籤</li><li>categories  【可选】文章分类</li><li>keywords    【可选】文章关键字</li><li>description 【可选】文章描述</li><li>top_img 【可选】文章顶部图片</li><li>cover   【可选】文章缩略图 (如果没有设置 top_img, 文章页顶部将显示缩略图，可设为 false /图片地址 / 留空)</li><li>comments    【可选】显示文章评论模块 (默认 true)</li><li>toc 【可选】显示文章 TOC (默认为设置中 toc 的 enable 配置)</li><li>toc_number  【可选】显示 toc_number (默认为设置中 toc 的 number 配置)</li><li>auto_open   【可选】是否自动打开 TOC (默认为设置中 toc 的 auto_open 配置)</li><li>copyright   【可选】显示文章版权模块 (默认为设置中 post_copyright 的 enable 配置)</li><li>copyright_author    【可选】文章版权模块的文章作者</li><li>copyright_author_href   【可选】文章版权模块的文章作者链接</li><li>copyright_url   【可选】文章版权模块的文章连结链接</li><li>copyright_info  【可选】文章版权模块的版权声明文字</li><li>mathjax 【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)</li><li>katex   【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)</li><li>aplayer 【可选】在需要的页面加载 aplayer 的 js 和 css, 请参考文章下面的音乐 配置</li><li>highlight_shrink    【可选】配置代码框是否展开 (true/false)(默认为设置中 highlight_shrink 的配置)</li></ul><p>  作者：Confucianmen大宇<br>  链接：<a href="https://www.jianshu.com/p/f7f34c659149">https://www.jianshu.com/p/f7f34c659149</a><br>  来源：简书</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;头发愤怒聚集地。。。。。&lt;br&gt;&lt;strong&gt;主要是关于我的博客&lt;a href=&quot;http://physics-m.github.io/&quot;&gt;MPS Blog&lt;/a&gt;和数学的一个网站&lt;a href=&quot;http://math-m.gitee.io/&quot;&gt;数学阁&lt;/a&gt; 的维护日志&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="blog" scheme="https://physics-m.github.io/tags/blog/"/>
+    
+    <category term="折腾" scheme="https://physics-m.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何通过hexo建立一个属于自己的个人博客（静态网站）</title>
+    <link href="https://physics-m.github.io/2020/10/01/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%EF%BC%89/"/>
+    <id>https://physics-m.github.io/2020/10/01/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87hexo%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%EF%BC%89/</id>
+    <published>2020-10-01T12:49:50.000Z</published>
+    <updated>2021-08-05T04:45:23.960Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28625025&auto=0&height=66"></iframe>首先简单谈谈我为什么创建 个人博客 ，我是因为逛信息竞赛的论坛的水贴中看到Noip巨佬 _Menci_ 的博客（https://oi.men.ci/） 而惊艳到，而也想拥有一个同样的个人博客，于是就做了一个神似的个人博客。我也用了同样的hexo上的Next主题，本次教程会使用Fluid主题。<a id="more"></a> <hr><h1 id="概括"><a href="#概括" class="headerlink" title="概括"></a>概括</h1><p>简单介绍一下要使用的博客框架 <strong>hexo</strong><br>官网（<a href="https://hexo.io/">https://hexo.io</a> )<br>一个快速、简洁且高效的博客框架，上面的主题有300多个大多都非常漂亮</p><p>另hexo官网文档也有详细教程，有一定基础者可以直接看(<a href="https://hexo.io/zh-cn/docs">https://hexo.io/zh-cn/docs</a> ）那个是直接推送到GitHub上，我这个还会再讲如何推送到码云上</p><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="基本软件安装"><a href="#基本软件安装" class="headerlink" title="基本软件安装"></a>基本软件安装</h2><ul><li>一台电脑。。。。要联网。。。（废话）</li><li>一个文本编译器，什么编译器都行，个人推荐 <strong>sublimetext</strong> （<a href="http://www.sublimetext.com/3">http://www.sublimetext.com/3</a> ）（ps：这玩意有办法变成中文，可以自行百度或者QQ问我）</li><li><strong>nodejs</strong>(<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a> )(必要)</li><li><strong>Git</strong> （<a href="https://git-scm.com/">https://git-scm.com/</a> ）（必要）</li></ul><h2 id="配置git"><a href="#配置git" class="headerlink" title="配置git"></a>配置git</h2><p> <em>为了写这个教程我把我的git删除了</em>/(ㄒoㄒ)/~~（还有好多插件）</p><p> 打开Git bash（在你的安装目录里，或者也可以从开始菜单中打开，将会是黑色界面。<br> 这里简单说一下git的命令</p><h3 id="git中安装"><a href="#git中安装" class="headerlink" title="git中安装"></a>git中安装</h3><p>安装这几部步会很慢，如果想快点可以科学上网，或者使用网络镜像源</p><h5 id="安装并配置hexo"><a href="#安装并配置hexo" class="headerlink" title="安装并配置hexo"></a>安装并配置hexo</h5><p> 输入命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>后按回车，将会下载安装hexo框架（大概要等半分钟，再次出现彩色交互界面为止）</p><h5 id="安装脚手架"><a href="#安装脚手架" class="headerlink" title="安装脚手架"></a>安装脚手架</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install vue-cli -g</span><br></pre></td></tr></table></figure><h5 id="git上切换到网站本地文件路径，并进行部署"><a href="#git上切换到网站本地文件路径，并进行部署" class="headerlink" title="git上切换到网站本地文件路径，并进行部署"></a>git上切换到网站本地文件路径，并进行部署</h5><ol><li>想好你要把博客安装的位置，选择你要把博客的文件放在哪里，并在git上切换到此文件夹。<em>比如我放在h盘的blog文件夹里</em>,那么我可以，先切换到这个目录下。对于我来讲操作方式是 ：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cd h    &#x2F;&#x2F; 进入h盘 &#x2F;&#x2F;</span><br><span class="line"></span><br><span class="line">$ cd blog  &#x2F;&#x2F;进入blog文件夹&#x2F;&#x2F;</span><br></pre></td></tr></table></figure>（<strong>这请根据你你自己的需要,将“网站文件”放在的你所想的路径里</strong>)<br>接下来我们已经在你所要求的文件夹里了在这里和下文我们设这个文件夹为 <strong>A</strong> 对于我来说 <strong>A</strong> 就是那个blog文件</li><li>创建初始博客<br><code>$ hexo init &lt;你博客的名字&gt;</code>（例如：我要做一个名叫math-m的网站所以对我来说输入的就是hexo init math-m） <strong>特别说明名称务必不能有中文</strong><br>这一步操作结果是将创造一个一个以你博客为名字的文件夹，内有基本文件，设这个文件为<strong>B</strong> 对我来说，math-m就是<strong>B</strong><br>此时hexo的基本框架已经部署好了，你已经可以本地预览了<br>其中文件里_config.yml文件有网站的配置信息，您可以在此配置大部分的参数。<br>文件B里面的所有东西就是你网站的本地数据了<br>下文的所有操作都将是在 <strong>B</strong> 文件里进行，你所有关于网站的本地数据也会在 <strong>B</strong> 文件中</li></ol><h5 id="初次尝试本地预览"><a href="#初次尝试本地预览" class="headerlink" title="初次尝试本地预览"></a>初次尝试本地预览</h5><p>或许你肯定在想我的网站在哪里？怎么就建好了我们可以进行简单尝试。</p><ol><li><p>在git中切换到你 <strong>B</strong> 文件的路径下<br>操作<br><code>$ cd &lt;B文件&gt;</code><br>对于我来讲就是输入 cd math-m<br>让后我们可以让网页本地预览<br><strong>ps:</strong> 这个是返回上一级<br><code>$ cd ..</code><br><code>$ hexo s</code><br>这个操作可以让我们本地预览，我们可以打开浏览器 输入 localhost:4000 就可以浏览我们的网站了，这是一个hexo官方默认的一个主题，我们会在下文中教会如何切换主题，这个网站的唯一一篇文章也介绍了我们网站的写作方法。</p></li><li><p>使用编译器进行简单的参数修改，以及文章书写<br>或许你还在疑问</p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=28625025&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
+首先简单谈谈我为什么创建 个人博客 ，我是因为逛信息竞赛的论坛的水贴中看到Noip巨佬 _Menci_ 的博客（https://oi.men.ci/） 而惊艳到，而也想拥有一个同样的个人博客，于是就做了一个神似的个人博客。我也用了同样的hexo上的Next主题，本次教程会使用Fluid主题。</summary>
+    
+    
+    
+    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+    <category term="hexo建站" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/hexo%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="blog" scheme="https://physics-m.github.io/tags/blog/"/>
+    
+    <category term="教程" scheme="https://physics-m.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="hexo" scheme="https://physics-m.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>起点</title>
+    <link href="https://physics-m.github.io/2020/09/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://physics-m.github.io/2020/09/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-09-12T12:06:36.000Z</published>
+    <updated>2021-01-01T17:23:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>–<br>  跟关于内容差不多</p><a id="more"></a>  <h1 id="我的博客大概分为几个方面，以及对内容的预想"><a href="#我的博客大概分为几个方面，以及对内容的预想" class="headerlink" title="我的博客大概分为几个方面，以及对内容的预想"></a>我的博客大概分为几个方面，以及对内容的预想</h1><h3 id="1-瞎折腾"><a href="#1-瞎折腾" class="headerlink" title="1. 瞎折腾"></a>1. 瞎折腾</h3><p>   / 1.树莓派 2.捡垃圾 3.以及一些化学实验 4.以及博客建立的坑 /</p><h3 id="2-学习"><a href="#2-学习" class="headerlink" title="2. 学习"></a>2. 学习</h3><p>   / 1.有趣的数学问题 2.秃头的物理题 3.计算机语言的学习/</p><h3 id="3-个人瞎想"><a href="#3-个人瞎想" class="headerlink" title="3. 个人瞎想"></a>3. 个人瞎想</h3><p>   / 1.时政性的思考 2.对某些热点问题的反思与看法  /</p><h3 id="4-无聊发骚"><a href="#4-无聊发骚" class="headerlink" title="4. 无聊发骚"></a>4. 无聊发骚</h3><p> <del>十有八九因为妹子</del> （逃 ~~~）</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;–&lt;br&gt;  跟关于内容差不多&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="瞎折腾" scheme="https://physics-m.github.io/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="blog" scheme="https://physics-m.github.io/tags/blog/"/>
+    
+    <category term="折腾" scheme="https://physics-m.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+</feed>
